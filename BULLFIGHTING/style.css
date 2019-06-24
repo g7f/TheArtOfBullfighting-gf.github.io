@@ -1,0 +1,25 @@
+/*Selector{
+	Proper:value;
+}*/
+body{background-image: url(https://jimenaguzes.files.wordpress.com/2012/02/corrida-de-toros.jpg);
+  background-size:cover; }
+  h1{background-color: red;
+    text-align:center;
+    border: 5px solid purple;
+  font-family: 'Cinzel Decorative', cursive;}
+  h2{color: blue;
+  }
+  header h2{color: green;
+  text-decoration: underline;
+  font-weight: bold;}
+  a  h2{background: green;
+  color: red;
+  text-align: center;
+  border: 5px solid blue;
+  }
+  img{cursor: pointer;
+    transition: all 1s;
+  }
+  img:hover{transform:scale(1.1)}
+  h2:hover{color: purple;
+  }
